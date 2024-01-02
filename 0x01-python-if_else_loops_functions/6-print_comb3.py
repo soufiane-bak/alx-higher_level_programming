@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-for x in range(0, 10):
-    for y in range(x + 1, 10):
-        if x == 8 and y == 9:
-            print('89')
+# Author - Godswill Kalu
+
+for d1 in range(0, 10):
+    for d2 in range(d1 + 1, 10):
+        if d1 == 8 and d2 == 9:
+            print("{}{}".format(d1, d2))
         else:
-            print('{}{}, '.format(x, y), end='')
-
-
+            print("{}{}".format(d1, d2), end=", ")
